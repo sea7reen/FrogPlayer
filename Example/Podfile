@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FrogPlayer_Example' do
+  pod 'FrogPlayer', :path => '../'
+
+  target 'FrogPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
